@@ -28,6 +28,11 @@ public class UsrMemberController {
 		return "usr/member/join";
 	}
 	
+	@GetMapping("/usr/member/joinTest")
+	public String joinTest() {
+		return "usr/member/joinTest";
+	}
+	
 	@GetMapping("/usr/member/loginIdDupChk")
 	@ResponseBody
 	public ResultData loginIdDupChk(String loginId) {

@@ -13,7 +13,6 @@
 			
 			<div class="flex">
 				<div class="modal-exam btn btn-active mr-10"><span>모달예시</span></div>
-				
 				<div class="popUp-exam btn btn-active"><span>팝업예시</span></div>
 			</div>
 			
