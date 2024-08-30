@@ -33,12 +33,13 @@
 		<div class="grow"></div>
 		<ul class="flex">
 			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/"><span>HOME</span></a></li>
-			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/article/list?boardId=1"><span>NOTICE</span></a></li>
-			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/article/list?boardId=2"><span>FREE</span></a></li>
-			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/home/apiTest1"><span>APITEST1</span></a></li>
-			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/home/apiTest2"><span>APITEST2</span></a></li>
+			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/home/apiTest1"><span>APITest1</span></a></li>
+			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/home/apiTest2"><span>APITest2</span></a></li>
+			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/album/list"><span>album</span></a></li>
+			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/calender/list"><span>달력</span></a></li>
+<!-- 			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/article/list?boardId=1"><span>NOTICE</span></a></li> -->
+<!-- 			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/article/list?boardId=2"><span>FREE</span></a></li> -->
 			<c:if test="${rq.loginedMemberId == 0}">
-				<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/member/joinTest"><span>JOINTEST</span></a></li>
 				<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/member/join"><span>JOIN</span></a></li>
 				<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/member/login"><span>LOGIN</span></a></li>
 			</c:if>

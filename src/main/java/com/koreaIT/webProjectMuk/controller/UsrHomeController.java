@@ -29,4 +29,9 @@ public class UsrHomeController {
 	public String apiTest2() {
 		return "usr/home/apiTest2";
 	}
+	
+	@GetMapping("/usr/album/list")
+	public String albumTest() {
+		return "usr/album/list";
+	}
 }
