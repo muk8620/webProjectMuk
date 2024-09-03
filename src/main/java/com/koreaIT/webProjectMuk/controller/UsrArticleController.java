@@ -34,7 +34,7 @@ public class UsrArticleController {
 	}
 
 	@GetMapping("/usr/article/write")
-	public String write() {
+	public String write() {	
 
 		return "usr/article/write";
 	}
